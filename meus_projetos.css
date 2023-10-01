@@ -75,4 +75,12 @@ img {
    height: 50px;
    width: 50px;
  }
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores, como tablets */
+}
+
+@media screen and (max-width: 480px) {
+  /* Estilos para dispositivos móveis */
+}
+
  
