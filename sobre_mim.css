@@ -134,11 +134,10 @@ h2 {
   border: 13px solid;
   border-image: url(print.png) 150 round;
 }
-.icon {
-   width: 30%;
-   height: 30%;
-   margin-left: auto;
-   margin-right: auto;
+.icon 
+img {
+   width: 10%;
+   height: 10%;
 h3 {
   text-align: center;
   font-size: 30px;
