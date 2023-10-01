@@ -1,0 +1,77 @@
+body {
+  background-color: #B0E0E6;
+  border: 20px solid;
+  border-image: url(print.png) 190 round;
+}
+.divgift
+img {
+  display:flex;
+  width: 20%;
+  height: 15%; 
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;
+  color: darkblue;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+  display: block;
+}
+#mensagem{
+  font-style: italic;
+  width: 50%;
+  height: 20%;
+  
+}
+
+.formu {
+  text-align: center;
+    display: flex;
+    font-size: 30px;
+}
+.formu form{
+  margin-left: 50%;
+  margin-top:-15% ;
+    display: block;
+    font-size: 30px;
+
+}
+.botao input{
+ border-radius: 20% color blue;
+ border-radius: 10%;
+ color:black;
+  font-size:30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
+
+.column {
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+
+.column p {
+  font-size: 1em;
+}
+ 
+img {
+
+   height: 50px;
+   width: 50px;
+ }
+ 
+
+
+
+
+

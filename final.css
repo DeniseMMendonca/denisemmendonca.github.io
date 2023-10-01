@@ -1,0 +1,135 @@
+body {
+  flex: 0;
+  padding: 3%;
+  background-color: #B0E0E6
+}
+img.prof {
+  width: 20%;
+  height: 20%;
+ border-radius: 50%;
+ border: 2px solid blue;
+
+}
+.fotos{
+  display:flex;
+}
+.fotos p{
+  width: 100%;
+    height: 50%;
+    display: block;
+    font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: cursive;
+  
+}
+h2 {
+  font-size: 30px;
+text-align: center;
+  text-decoration: underline;
+  font-family: cursive;
+  color: darkblue
+}
+p {
+font-size: 30px;
+  text-align: center;
+  
+}
+.bort {
+  width: 10%;
+}
+h3 {text-align: center;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: 2rem;
+}
+h4 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+}
+.divturma {
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+}
+.nove {
+  text-align: center;
+  font-size: 2rem;
+  color: blue;
+ }
+ .leta {
+  width: 15%;
+}
+.glow-on-hover {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 1.5rem;
+    width: 280px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+ 
+
+
