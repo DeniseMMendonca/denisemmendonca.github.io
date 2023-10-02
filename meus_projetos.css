@@ -54,7 +54,7 @@ h2 {
   font-size: 30px;
   word-spacing: 15%;
 }
-footer {
+footer p {
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -77,6 +77,7 @@ img {
  }
 .copyright 
 p {
+  font-size: 1rem;
     padding: 10px;
     text-align: center;
 } 
