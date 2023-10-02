@@ -130,6 +130,12 @@ h4 {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
- 
+.copyright 
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+} 
 
 
