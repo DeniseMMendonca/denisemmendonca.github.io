@@ -152,7 +152,7 @@ a {
     text-align: center;
     letter-spacing: 0.1em;
 }
-footer p {
+footer {
   display: flex;
   justify-content: space-between;
   background-color: white;
