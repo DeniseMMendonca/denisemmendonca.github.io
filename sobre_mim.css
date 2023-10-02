@@ -25,6 +25,10 @@ p {
 p::first-letter {
   font-size: 35px;
 }
+mark {
+    background-color: blue;
+    color: white;
+}
 .glow-on-hover {
     width: 90px;
     height: 50px;
