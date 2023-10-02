@@ -165,8 +165,9 @@ footer p {
   text-align: center;
 }
 
-.column p {
-  font-size: 0.9em;
+.column 
+p {
+  font-size: 2rem;
 }
  
 img {
