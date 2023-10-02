@@ -54,7 +54,7 @@ h2 {
   font-size: 30px;
   word-spacing: 15%;
 }
-footer p {
+footer {
   display: flex;
   justify-content: space-between;
   background-color: white;
