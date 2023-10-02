@@ -75,5 +75,12 @@ img {
    height: 50px;
    width: 50px;
  }
+.copyright 
+footer {
+    font-size: 1rem;
+    color:blue
+    padding: 10px;
+    text-align: center;
+} 
 
  
