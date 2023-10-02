@@ -66,9 +66,8 @@ p {
   text-align: center;
 }
 .copyright 
-footer {
+p {
     font-size: 1rem;
-    color:blue
     padding: 10px;
     text-align: center;
 } 
