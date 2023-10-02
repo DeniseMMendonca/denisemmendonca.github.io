@@ -173,5 +173,12 @@ img {
    height: 40px;
    width: 40px;
  }
+.copyright 
+footer {
+    font-size: 1rem;
+    color:blue
+    padding: 10px;
+    text-align: center;
+} 
  
 
