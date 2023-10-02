@@ -131,9 +131,8 @@ h4 {
     100% { background-position: 0 0; }
 }
 .copyright 
-footer {
+p {
     font-size: 1rem;
-    color:blue
     padding: 10px;
     text-align: center;
 } 
