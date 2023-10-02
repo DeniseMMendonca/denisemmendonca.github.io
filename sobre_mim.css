@@ -167,14 +167,15 @@ footer p {
 
 .column 
 p {
-  font-size: 1em;
+  font-size: 1rem;
 }
  
 img {
    height: 40px;
    width: 40px;
  }
-.copyright 
+.copyright {
+    font-size: 1rem;
     padding: 10px;
     text-align: center;
 } 
