@@ -132,10 +132,10 @@ h4 {
 }
 .copyright 
 footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    text-align: center; /* Centralizar o texto */
+    font-size: 1rem;
+    color:blue
+    padding: 10px;
+    text-align: center;
 } 
 
 
