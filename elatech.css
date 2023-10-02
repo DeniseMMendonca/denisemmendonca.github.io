@@ -147,3 +147,11 @@ h5 {
     font-size: 3rem;
   
 }
+.copyright 
+footer {
+    font-size: 1rem;
+    color:blue
+    padding: 10px;
+    text-align: center;
+} 
+
