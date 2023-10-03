@@ -153,3 +153,85 @@ p {
     text-align: center;
 } 
 
+/*Responsivo*/
+@media screen and (max-width: 768px) {
+    body {
+        padding: 5%;
+    }
+    .texto {
+        padding: 5%;
+    }
+    .imagem {
+        padding: 5%;
+    }
+    img {
+        width: 50%;
+    }
+
+    .coluna {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .coluna p {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .divp {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .homi {
+        font-size: 2rem;
+    }
+
+    #comic-container {
+        background-color: rgb(79, 150, 192);
+        border: 1px solid blue;
+    }
+
+    #comic-panel {
+        border-image: 5px white;
+    }
+
+    #next-button {
+        width: 20%;
+        margin: 0 10% 5% 20%;
+        font-size: 1rem;
+    }
+
+    #prev-button {
+        width: 20%;
+        margin: 0 10% 5%;
+        font-size: 1rem;
+    }
+
+    .container {
+        font-size: 2rem;
+    }
+
+    .iframe {
+        font-size: 1.5rem;
+    }
+    iframe {
+        border: 1px solid blue;
+    }
+
+    h4,
+    h5 {
+        font-size: 2rem;
+    }
+
+    .copyright p {
+        padding: 5px;
+    }
+}
+
