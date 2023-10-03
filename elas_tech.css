@@ -9,7 +9,7 @@ body {
    background-color: black;
    color: white;
    border-radius: 3px;
-   cursor: default;
+   cursor: pointer;
 }
 .banner {
   display: inline-block;
