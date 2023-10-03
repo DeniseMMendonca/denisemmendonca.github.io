@@ -74,7 +74,50 @@ p {
     padding: 10px;
     text-align: center;
 } 
- 
+ /*Responsivo*/
+@media screen and (max-width: 768px) {
+    .divgift img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #mensagem {
+      width: 80%;
+      height: 15%;
+    }
+  
+    .formu {
+        flex-direction: column; 
+        font-size: 24px; 
+    }
+    
+    .formu form {
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 0; 
+    }
+    
+    .botao input {
+        border-radius: 10%;
+        font-size: 24px; 
+    }
+    
+    footer {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+  
+    .copyright p {
+        padding: 10px;
+    }
+}
+
+
 
 
 
