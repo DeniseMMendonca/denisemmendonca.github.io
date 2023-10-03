@@ -4,8 +4,12 @@ body {
     background-color: #B0E0E6;
     border: 20px solid;
     border-image: url(print.png) 190 round;
-
- 
+}
+.button {
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
 }
  .texto {
     flex: 1; 
