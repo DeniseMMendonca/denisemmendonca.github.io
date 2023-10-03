@@ -70,3 +70,32 @@ p {
     padding: 10px;
     text-align: center;
 } 
+/*Responsivo*/
+@media screen and (max-width: 768px) {
+    body {
+        padding: 2%;
+    }
+    
+    .banner {
+        height: 500px;
+    }
+    
+    .banner p {
+        font-size: 24px;
+    }
+    img {
+        max-width: 80%;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+    }
+    .divgif img {
+        max-width: 80%;
+    }
+
+    .divgif p {
+        font-size: 24px;
+    }
+}
+
