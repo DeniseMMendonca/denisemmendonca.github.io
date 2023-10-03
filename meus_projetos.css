@@ -1,7 +1,12 @@
 body {
   background-color: #B0E0E6;
 }
-
+.button {
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
 .img-curri {
   width: 91%;
   height: 76%;
