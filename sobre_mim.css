@@ -3,6 +3,12 @@ body {
       padding: 3%;
     background-color: #B0E0E6;
 }
+.button {
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
 .imagem-esquerda {
   width: 20%;
   height: 20%;
