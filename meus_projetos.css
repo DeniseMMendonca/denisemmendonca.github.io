@@ -81,5 +81,52 @@ p {
     padding: 10px;
     text-align: center;
 } 
+/*Responsivo*/
+@media (max-width: 768px) {
+    .img-curri {
+        width: 100%; /* Ocupa toda a largura do contêiner pai */
+    }
 
+    .img-hopper {
+        width: 100%; /* Ocupa toda a largura do contêiner pai */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduza o tamanho da fonte para telas menores */
+    }
+
+p {
+        font-size: 18px; /* Reduza o tamanho da fonte para telas menores */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduza o tamanho do título */
+    }
+
+    .sob a {
+        font-size: 25px; /* Reduza o tamanho do texto dentro de links */
+        word-spacing: 10%; /* Ajuste o espaçamento entre palavras */
+    }
+
+footer {
+        flex-direction: column; /* Coluna em telas menores */
+        align-items: center; /* Centralizar conteúdo */
+    }
+
+    .column {
+        flex: 1;
+        margin: 1px;
+        text-align: center;
+        width: 100%; /* Ocupa toda a largura */
+    }
+
+    img {
+        height: 30px; /* Reduza o tamanho da imagem */
+        width: 30px; /* Reduza o tamanho da imagem */
+    }
+
+    .copyright p {
+        font-size: 0.8rem; /* Reduza o tamanho da fonte */
+    }
+}
  
