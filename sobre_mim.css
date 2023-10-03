@@ -177,7 +177,7 @@ footer {
 
 .column 
 p {
-  font-size: 1rem;
+  font-size: 1px;
 }
  
 img {
@@ -185,7 +185,7 @@ img {
    width: 40px;
  }
 .copyright {
-    font-size: 1px;
+    font-size: 0,1px;
     padding: 10px;
     text-align: center;
 } 
