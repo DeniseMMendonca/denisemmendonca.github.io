@@ -3,6 +3,12 @@ body {
   border: 20px solid;
   border-image: url(print.png) 190 round;
 }
+.button {
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   cursor: pointer;
+}
 .divgift
 img {
   display:flex;
