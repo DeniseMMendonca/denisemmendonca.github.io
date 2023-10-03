@@ -58,7 +58,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  padding: 50px;
+  padding: 70px;
 }
 
 .column {
@@ -75,8 +75,7 @@ img {
    height: 50px;
    width: 50px;
  }
-.copyright 
-p {
+.copyright {
   font-size: 1rem;
     padding: 10px;
     text-align: center;
