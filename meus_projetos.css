@@ -68,7 +68,7 @@ footer {
 }
 
 .column p {
-  font-size: 1rem;
+  font-size: 5px;
 }
  
 img {
@@ -76,7 +76,7 @@ img {
    width: 50px;
  }
 .copyright {
-  font-size: 1rem;
+  font-size: 2px;
     padding: 10px;
     text-align: center;
 /*Responsivo*/
