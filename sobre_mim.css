@@ -184,11 +184,8 @@ img {
    height: 40px;
    width: 40px;
  }
-.copyright {
- padding: 10px;
-    
-} 
-p {
+.copyright p {
+padding: 10px;
 font-size: 14px;
 text-align: center;
 }
