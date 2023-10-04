@@ -184,11 +184,11 @@ img {
    height: 40px;
    width: 40px;
  }
-.copyright 
-p {
-    font-size: 14px;
-    padding: 10px;
-    text-align: center;
+.copyright {
+ padding: 10px;
+    
 } 
- 
-
+p {
+font-size: 14px;
+text-align: center;
+}
